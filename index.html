@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Jquery slider</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional Bootstrap theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./css/style.css">
+  
+    </head>
+    
+    <body>
+     <div id="slide-container" class="container-fluid ">
+        <ul class="list-images">
+            <li class="active"><img src="./images/image%201%20(1).jpg" alt="Slider img 1" ></li>
+            <li><img src="./images/image%201%20(2).jpg" alt="Slider img 3" ></li>
+            <li><img src="./images/image%201%20(4).jpg" alt="Slider img 3" ></li>
+        </ul>
+
+        <div class="navegation">
+            <a class="prev" href="#"><</a>
+            <a class="next" href="#">></a>
+        </div>
+    
+        <div class="page">
+            1 / 4
+        </div>
+
+    </div>
+
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./js/jquery.slider.js"></script>
+    <script>
+         $(document).ready(function(){
+             
+              $(".next").slider()
+              
+              $(".prev").slider()
+         })
+         
+         
+         
+         
+         </script>
+   
+    </body>
+</html>
