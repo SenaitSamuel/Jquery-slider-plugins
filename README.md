@@ -13,7 +13,7 @@ Create the Html for a content slider/carousel
 Add  following stylesheet in the header
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-then add the style.css from plugin  stylesheet  after this
+then add the style.css   stylesheet from plugin after this
 
 In your html file  in body part:-
 create an un-ordered list which has a few images inside them. 
